@@ -1,0 +1,19 @@
+{
+  "name": "buddyhood",
+  "version": "1.0.0",
+  "description": "Online platform, der henvender sig til unge i alderen 13-17 år. Formålet med denne platform er at sætte fokus på det meget tabubelagte emne; ensomhed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewras93/buddyhood.git"
+  },
+  "author": "Abd, Andrew, Britt & Mie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewras93/buddyhood/issues"
+  },
+  "homepage": "https://github.com/andrewras93/buddyhood#readme"
+}
