@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/andrewras93/buddyhood/issues"
   },
-  "homepage": "https://github.com/andrewras93/buddyhood#readme"
+  "homepage": "https://github.com/andrewras93/buddyhood#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
