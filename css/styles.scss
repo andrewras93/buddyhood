@@ -1,1 +1,14 @@
+/* IMPORTS */
+
+@import "colors";
+@import "buttons";
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "mobile";
+@import "tablet";
+@import "desktop";
+
+/* THEME COLORS */
+
+$theme-colors: (
+        "secondary": $secondary
+);
