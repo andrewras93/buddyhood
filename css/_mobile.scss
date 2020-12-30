@@ -11,14 +11,12 @@
   border-radius: 1rem!important;
 }*/
 
+#video .card, #nyeste-video img{
+  cursor: pointer;
+}
+
 /* TYPOGRAPHY */
 
 .display-3{
   font-size: 2.5rem;
-}
-
-/* VIDEO */
-
-#video .card{
-  cursor: pointer;
 }
