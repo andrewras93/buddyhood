@@ -11,9 +11,7 @@
     <meta name="copyright" content="">
     <meta name="description" content="">
 
-    <!--<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>-->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,7 +20,7 @@
 
 <!-- HEADER -->
 
-<header>
+<header id="top">
     <nav class="navbar navbar-expand-lg navbar-light container-lg">
         <a class="navbar-brand" href="index.html"><img src="images/buddyhood-logotype-small.png" alt="Buddyhood" class="img-fluid"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,6 +52,31 @@
 
 <main class="container-lg">
 
+    <!-- EMNER -->
+
+    <section id="emner" class="mt-5 pt-lg-5">
+        <h1 class="text-uppercase font-weight-light text-center">Populære Emner</h1>
+        <div class="row text-center mt-5">
+            <div class="col-lg-4 p-2">
+                <h3 class="d-inline p-lg-2" style="background: yellow">Kærlighed</h3>
+            </div>
+            <div class="col-lg-4 p-2">
+                <h3 class="d-inline p-lg-2" style="background: rebeccapurple">Musik</h3>
+            </div>
+            <div class="col-lg-4 p-2">
+                <h3 class="d-inline p-lg-2" style="background: dodgerblue">Film & Serier</h3>
+            </div>
+        </div>
+        <div class="row text-center mt-lg-5">
+            <div class="col-lg-6 p-2">
+                <h3 class="d-inline p-lg-2" style="background: orangered">Gaming</h3>
+            </div>
+            <div class="col-lg-6 p-2">
+                <h3 class="d-inline p-lg-2" style="background: hotpink">Venskab</h3>
+            </div>
+        </div>
+    </section>
+
     <!-- NYESTE VIDEO -->
 
     <section id="nyeste-video" class="mt-5 pt-lg-5">
@@ -64,7 +87,7 @@
             </div>
             <div class="col-12 col-lg-4 mt-3 mt-lg-4">
                 <div class="row">
-                    <div class="col-2 col-lg-12">
+                    <div class="col-12">
                         <h6>Se også...</h6>
                     </div>
                     <div class="col-5 col-lg-12">
@@ -82,7 +105,7 @@
 
     <section id="video" class="mt-5 pt-lg-5">
         <div>
-            <h2 class="text-uppercase text-center">Alle Videoer</h2>
+            <h2 class="text-uppercase text-center font-weight-bold">Alle Videoer</h2>
         </div>
         <div class="row mt-3">
             <div class="col-lg-4">
@@ -130,7 +153,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-center d-lg-none mt-2">
+        <div class="text-right d-lg-none mt-2">
             <button type="button" class="rounded border-0 btn btn-primary btn-sm">+ Flere videoer</button>
         </div>
     </section>
@@ -143,7 +166,7 @@
     <div class="container-lg">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <img src="images/buddyhood-logo-small.png" alt="Buddyhood Logo" class="img-fluid">
+                <a href="#top"><img src="images/buddyhood-logo-small.png" alt="Buddyhood Logo" class="img-fluid"></a>
             </div>
         </div>
     </div>
@@ -151,7 +174,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>-->
 <script src="js/scripts.js"></script>
 
 </body>

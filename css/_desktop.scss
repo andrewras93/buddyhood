@@ -2,10 +2,12 @@ $desktop: "screen and (min-width: 1200px)";
 
 @media #{$desktop} {
 
-  /* TYPOGRAPHY */
-
   .display-3{
     font-size: 4.5rem;
+  }
+
+  #quiz .card{
+    min-height: 390px;
   }
 
 }
