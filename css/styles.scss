@@ -1,0 +1,12 @@
+@import "colors";
+@import "buttons";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "mobile";
+@import "desktop";
+
+$theme-colors: (
+        "secondary": $secondary,
+        "danger": $danger,
+        "succes": $success,
+        "info": $info
+);

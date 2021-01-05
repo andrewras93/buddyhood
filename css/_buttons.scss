@@ -1,0 +1,11 @@
+.btn-primary{
+  background: linear-gradient(90deg, rgba(0,163,230,1) 0%, rgba(118,80,177,1) 35%, rgba(232,0,127,1) 100%);
+}
+
+.btn-secondary{
+  background: linear-gradient(90deg, rgba(232,0,127,1) 0%, rgba(238,68,65,1) 50%, rgba(244,138,0,1) 100%);
+}
+
+.btn-light{
+  background: $light!important;
+}

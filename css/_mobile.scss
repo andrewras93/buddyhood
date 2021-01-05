@@ -1,0 +1,43 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.navbar-light .navbar-toggler{
+  border-radius: 100%;
+  padding: 0.4rem;
+  background: #EBEBEB;
+  border: none;
+}
+
+.btn-primary{
+  border-radius: 2.25rem!important;
+}
+
+#video .card, #nyeste-video img, #emner h3{
+  cursor: pointer;
+}
+
+.display-3{
+  font-size: 2.5rem;
+}
+
+#gode-raad .card{
+  background: linear-gradient(180deg, rgba(39,175,232,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+#step-by-step h4{
+  background: linear-gradient(90deg, rgba(139,65,168,1) 0%, rgba(211,15,137,1) 100%);
+  min-height: 140px;
+}
+
+footer{
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,162,226,1) 100%);
+}
